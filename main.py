@@ -6,7 +6,7 @@
 
 print("--- Extracting Words from Text File ---\n")
 
-with open("data.txt", "r") as f:
+with open("story.txt", "r") as f:
     text = f.read()
 
 length = int(input("Enter length of words: "))
@@ -21,5 +21,6 @@ sorted_words = sorted(words_set)
 
 print(f"Words with length {length} are:")
 print(sorted_words)
+
 
 
